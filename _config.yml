@@ -1,5 +1,4 @@
-#
-#Welcome to Jekyll!
+# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
@@ -19,17 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Laeir Blog
-email: ninzhan5@gmail.com
+title: Laeir Designs
+email: ninzhan@laeir.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Blog posts by the jack of all trades or his minions.
+  A blog for the musings of Ninzhan, creator of and at Laeir Designs.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.laeir.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: FirelordNinzhan
 github_username:  ninzhan
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: minima
 plugins:
   - jekyll-feed
 
