@@ -3,6 +3,7 @@ layout: post
 title:  "Hello World"
 date:   2020-12-22 21:06:21 -0700
 categories: first-post hello world
+fb: true
 ---
 Hello World
 I say this every time I start a new programming language. Its so ingraned in the culture that it feels weird to do anything technical without saying it. So, Hello World!
