@@ -27,7 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.laeir.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: FirelordNinzhan
 github_username:  ninzhan
-main_site: "https://laeir.org"
+main_site: "https://www.laeir.org"
 
 # Build settings
 theme: minima
