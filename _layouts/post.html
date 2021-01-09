@@ -30,4 +30,14 @@ layout: default
 
   {% endif %}
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
+  {%- if jekyll.environment == "production" -%}
+  {%- else -%}
+  <p> Development </p>
+  	{%- if site.google-analytics -%}
+		<p> Google is working </p>
+	{%- else -%}
+		<p> Google is not Working </p>
+	{%- endif -%}
+{%- endif -%}
 </article>

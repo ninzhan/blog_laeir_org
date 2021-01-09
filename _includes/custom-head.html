@@ -1,11 +1,14 @@
-{% if site.google-analytics %}
+{%- if site.google-analytics -%}
 <!-- Analytics Active -->
-{% else %}
+{%- else -%}
 <!-- Analytics Not Active -->
-{% endif %}
+{%- endif -%}
 
-{% if jekyll.environment = "production" %}
+{%- if jekyll.environment = "production" -%}
 <!-- Production -->
-{% else %}
+{%- else -%}
 <!-- Development -->
-{% endif %}
+{%- endif -%}
+
+<meta name = "author" content = "HALLO">
+
