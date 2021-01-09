@@ -1,0 +1,11 @@
+{% if site.google-analytics %}
+<!-- Analytics Active -->
+{% else %}
+<!-- Analytics Not Active -->
+{% endif %}
+
+{% if jekyll.environment = "production" %}
+<!-- Production -->
+{% else %}
+<!-- Development -->
+{% endif %}
