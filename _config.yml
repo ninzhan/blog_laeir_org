@@ -28,7 +28,7 @@ url: "https://blog.laeir.org" # the base hostname & protocol for your site, e.g.
 twitter_username: FirelordNinzhan
 github_username:  ninzhan
 main_site: "https://www.laeir.org"
-google-analytics: UA-83520050-2
+google_analytics: UA-83520050-2
 version: 1.5
 
 # Build settings
